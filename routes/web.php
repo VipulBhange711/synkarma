@@ -13,3 +13,9 @@ Route::get('/welcome',[AuthController::class,'dashboard'])->name('dashboard.get'
 Route::get('/logout',[AuthController::class,'logout'])->name('logout.get');
 
 Route::post('/addinfo',[AuthController::class,'addinfo_post'])->name('addinfo.post');
+
+Route::get('users', [AuthController::class, 'index'])->name('users.index');
+Route::get('users/{id}', [AuthController::class, 'show'])->name('users.show');
+
+Route::post('/changeinfo',[AuthController::class,'changeinfo_post'])->name('changeinfo.post');
+
