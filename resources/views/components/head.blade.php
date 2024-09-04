@@ -13,4 +13,6 @@
   <link rel="stylesheet" href="../../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../../dist/css/adminlte.min.css">
+<script src="../../dist/js/cities.js"></script>
+
 </head>

@@ -11,3 +11,5 @@ Route::post('/reg',[AuthController::class,'register_post'])->name('register.post
 
 Route::get('/welcome',[AuthController::class,'dashboard'])->name('dashboard.get');
 Route::get('/logout',[AuthController::class,'logout'])->name('logout.get');
+
+Route::post('/addinfo',[AuthController::class,'addinfo_post'])->name('addinfo.post');
